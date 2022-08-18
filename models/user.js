@@ -1,6 +1,7 @@
-const {Schema, modal} = require('mongoose');
+const {Schema, model} = require('mongoose');
 const Joi = require('joi');
 const jwt = require('jsonwebtoken');
+// const {string} = require('joi');
 
 
 const userSchema = Schema({
