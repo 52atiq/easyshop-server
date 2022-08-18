@@ -1,7 +1,7 @@
 const express =require('express');
 const app = express();
 
-// middleware
+// Middleware
 const cors = require('cors');
 const morgan = require('morgan');
 
